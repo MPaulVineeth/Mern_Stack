@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Task 8</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="main-div pb-5 mt-4 ms-4 mb-3">
+      <div class="pt-2">
+        <p class="reg-para text-center" style="font-size: 30px">
+          Registration form
+        </p>
+      </div>
+      <div class="form-div">
+        <form>
+          <div class="table-responsive table-control">
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <td>
+                    <label class="form-label" for="firstName">First Name</label>
+                  </td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control need-input"
+                        type="text"
+                        name="firstName"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="form-label" for="lastName">Last Name</label>
+                  </td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control need-input"
+                        type="text"
+                        name="lastName"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="form-label" for="email">Email</label></td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control need-input"
+                        type="email"
+                        name="email"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="form-label" for="password">Password</label>
+                  </td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control password-1 password-input need-input"
+                        type="password"
+                        name="password"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="form-label" for="password-2"
+                      >Re-enter Password</label
+                    >
+                  </td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control password-2 password-input need-input"
+                        type="password"
+                        name="password-2"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="form-label" for="Gender">Gender</label></td>
+                  <td>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        id="formCheck-1"
+                        name="Gender"
+                      /><label class="form-check-label" name="formCheck-1"
+                        >Male</label
+                      >
+                    </div>
+                    <div class="form-check" name="">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        id="formCheck-2"
+                        name="Gender"
+                      /><label class="form-check-label" name="formCheck-2"
+                        >Female</label
+                      >
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="form-label" for="age">Age</label></td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control password-2 need-input"
+                        type="number"
+                        name="age"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="form-label" for="phone-number"
+                      >Phone Number</label
+                    >
+                  </td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control password-2 need-input"
+                        type="number"
+                        name="phone-number"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="form-label" for="address">Address</label>
+                  </td>
+                  <td>
+                    <div style="display: flex">
+                      <textarea
+                        class="form-control need-input"
+                        rows="4"
+                        cols="25"
+                        name="address"
+                      ></textarea>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="form-label" for="state">State</label></td>
+                  <td>
+                    <div style="display: flex">
+                      <input
+                        class="form-control password-2 need-input"
+                        type="text"
+                        name="state"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="form-label" for="country">Country</label>
+                  </td>
+                  <td>
+                    <select class="form-select">
+                      <option value="" disabled selected>
+                        Choose your country
+                      </option>
+                      <option>India</option>
+                      <option>United States</option>
+                      <option>United Kingdom</option>
+                      <option>Canada</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="form-label">Languages known</label></td>
+                  <td>
+                    <div class="d-flex justify-content-start me-2">
+                      <div class="form-check checkbox">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="formCheck-3"
+                        /><label
+                          class="form-check-label"
+                          for="formCheck-3"
+                          name=""
+                          >English</label
+                        >
+                      </div>
+                      <div class="form-check checkbox">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="formCheck-4"
+                        /><label class="form-check-label" for="formCheck-4"
+                          >Kannada</label
+                        >
+                      </div>
+                      <div class="form-check checkbox">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="formCheck-6"
+                        /><label class="form-check-label" for="formCheck-6"
+                          >Hindi</label
+                        >
+                      </div>
+                      <div class="form-check checkbox">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="formCheck-5"
+                        /><label class="form-check-label" for="formCheck-5"
+                          >Telugu</label
+                        >
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="here-by" colspan="2">
+                    <div class="d-inline-block">
+                      <div class="form-check ms-4">
+                        <input
+                          class="form-check-input check-box-input"
+                          type="checkbox"
+                          id="formCheck-7"
+                        /><label class="form-check-label" for="formCheck-7"
+                          >Hereby I declare all the given details are
+                          true</label
+                        >
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="d-flex justify-content-end d-inline-block">
+            <p>Log in to <a href="#">Ethnus</a> website</p>
+          </div>
+          <div class="text-center mt-2">
+            <button
+              class="btn btn-primary submit-button"
+              type="submit"
+              style="
+                background: #f80203;
+                border-radius: 25px;
+                text-decoration: underline;
+                width: 130px;
+                font-size: 18px;
+                border-style: solid;
+                border-color: var(--bs-emphasis-color);
+              "
+            >
+              REGISTER
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

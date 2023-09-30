@@ -1,0 +1,28 @@
+.main-div {
+  width: 350px;
+  box-shadow: 0px 0.3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.first-div {
+  width: 360px;
+}
+
+td {
+  background-color: #f7f7f7 !important;
+}
+
+.main-div-2 {
+  width: 370px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0.3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.main-div-3 {
+  background-color: #f7f7f7;
+  box-shadow: 0px 0.3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.ending-div {
+  background-color: #f7f7f7;
+}
+

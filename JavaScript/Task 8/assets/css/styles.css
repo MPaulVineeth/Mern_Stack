@@ -1,0 +1,65 @@
+.reg-para {
+  color: darkblue;
+  font-size: larger;
+  font-weight: 600;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid black !important;
+}
+
+@media (max-width: 768px) {
+  .main-div {
+    width: 100% !important;
+  }
+}
+
+.main-div {
+  background-image: url("../../assets/img/gradient.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+
+.main-div table,
+.main-div td {
+  background: transparent;
+}
+
+label {
+  display: inline;
+}
+
+td:nth-child(odd):not(.here-by) {
+  text-align: right;
+  vertical-align: middle;
+  width: 170px;
+  font-weight: 600;
+}
+
+.checkbox {
+  margin-left: 10px;
+}
+
+.main-div {
+  width: 900px;
+}
+
+.btn {
+  border-width: 2px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.text-Error {
+  margin-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #f80203;
+  font-weight: 500;
+}

@@ -1,0 +1,26 @@
+.date-div button,
+.time-div button {
+  height: 5rem;
+  width: 25%;
+  font-size: xx-large;
+}
+
+.date-div {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.date-div,
+.time-div {
+  margin-left: 15px;
+}
+
+.main-div {
+  background-color: aqua;
+}
+
+.display-date,
+.display-time {
+  padding-top: 0;
+  font-size: x-large;
+}

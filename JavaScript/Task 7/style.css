@@ -1,0 +1,19 @@
+.main-div {
+  margin-top: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.p-click {
+  font-size: xx-large;
+  color: rgb(0, 0, 179);
+}
+
+.button-div {
+  margin-top: 0;
+}
+
+button {
+  width: 59px;
+  font-size: medium;
+}

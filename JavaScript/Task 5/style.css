@@ -1,0 +1,28 @@
+.text-Error {
+  display: inline;
+  color: red;
+  padding-left: 10px;
+}
+
+td:nth-child(odd) {
+  text-align: right;
+}
+
+input,
+textarea {
+  border: 2px solid black;
+}
+
+.submit-button {
+  margin-left: 60px;
+}
+
+.textarea {
+  position: relative;
+}
+
+.textarea .text-Error {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+}

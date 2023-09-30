@@ -1,0 +1,34 @@
+.main-div {
+  position: relative;
+  width: 350px;
+  border: 1px solid black;
+  top: 40px;
+  left: 2%;
+  background-color: white;
+}
+
+button {
+  margin-left: 10px;
+}
+
+button:hover {
+  border-color: aqua;
+}
+
+body {
+  font-size: large;
+}
+
+.button-div {
+  margin-top: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.ans-div {
+  padding: 2px;
+}
+
+body {
+  background-color: rgb(107, 237, 100);
+}
